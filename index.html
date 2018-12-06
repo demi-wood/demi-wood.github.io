@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html xml:lang="en lang="en" >
 
+<head>
+
+        <meta http-equiv="Content-Type"
+		content="text/html; charset=utf-8" />
+	<title>Demi Wood's Projects</title>
+	<link href="websitestyle.css" type="text/css" rel="stylesheet"/>
+</head>
+
 <body>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<div class="topnav">
 		<a class="about" href="index.html">About Me</a>
 		<a class="uniprojects" href="uniprojects.html">University Projects</a>
 		<a class="personalprojects" href="personalprojects.html">My Personal Projects</a>
 		<a class="robotics" href="roboticssocietyprojects.html">Robotics Society Projects</a>
+		<a href="javascript:void(0);" class ="icon" onclick="responsiveBars()">
+			<i class="fa fa-bars"></i>
+		</a>
 	</div>
+	
+	<script>
+	function responsiveBars() {
+		var x = document.getElementById("myTopnav);
+		if (x.className === "topnav") {
+			x.className += "responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+	</script>
+		
 
 	<div id="header">
 		<h1 class ="heavy">Demi Wood's Projects</h1>
