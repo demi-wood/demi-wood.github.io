@@ -13,7 +13,7 @@
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
-	<div class="topnav">
+	<div class="topnav" id="myTopnav">
 		<a class="about" href="index.html">About Me</a>
 		<a class="uniprojects" href="uniprojects.html">University Projects</a>
 		<a class="personalprojects" href="personalprojects.html">My Personal Projects</a>
@@ -25,7 +25,7 @@
 	
 	<script>
 	function responsiveBars() {
-		var x = document.getElementById("myTopnav);
+		var x = document.getElementById("myTopnav");
 		if (x.className === "topnav") {
 			x.className += "responsive";
 		} else {
