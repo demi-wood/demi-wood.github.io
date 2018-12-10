@@ -14,7 +14,7 @@ body {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 20px;
 }
 
 .topnav a:hover {
@@ -31,3 +31,15 @@ body {
     display: none;
 } 
 
+#header {
+	text-align: center;
+	color: white;
+	font-family: Calibri, Ariel, sans-serif;
+	font-size: 50px;
+}
+
+#main {
+	color: white;
+	font-family: Calibri, Ariel, sans-serif;
+	font-size: 20px;
+}
