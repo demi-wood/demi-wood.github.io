@@ -1,6 +1,9 @@
+/*General CSS for the entire website*/
+
 body {
 	background-image:url("website-background.jpg");
-	background-repeat: repeat-x;
+	
+	background-size: cover;
 }
 
 .topnav {
