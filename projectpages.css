@@ -1,21 +1,5 @@
 /*CSS for the project pages*/
 
-.grid-container {
-  display: grid;
-  grid-gap: 50px 100px;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-}
-
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: black;
-  border: 1px solid rgb(225, 225, 225);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
-
 .button {
   padding: 15px 25px;
   font-size: 24px;
@@ -35,4 +19,46 @@
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  padding: 16px;
+  text-align: center;
+  background-color: white;
 }
