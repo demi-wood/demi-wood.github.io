@@ -58,7 +58,7 @@ body {
 
 /* Style the counter cards */
 .card {
-  padding: 16px;
+  /*padding: 16px;*/
   text-align: center;
   background-color: white;
 }
