@@ -4,39 +4,39 @@ body {
 	background-color: white;
 }
 
-.topnav {
-	overflow: hidden;
+#header {
+	text-align: center;
+	color: black;
+	font-family: 'Geostar Fill';
+	font-size: 30px;
+	background-color: white;
+	padding: 0.5px;
 }
 
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #999;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
 .topnav a {
-	float: left;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 20px;
-	font-family: Calibri, Ariel, sans-serif;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
 }
 
 .topnav a:hover {
-	background-color:#ddd;
-	color: black;
+  border-bottom: 3px solid red;
 }
 
 .topnav a.active {
-	background-color: #4CAF50;
-	color: black;
-}
-
-.topnav .icon {
-    display: none;
-} 
-
-#header {
-	text-align: center;
-	color: white;
-	font-family: Calibri, Ariel, sans-serif;
-	font-size: 50px;
-	background-color: black;
+  border-bottom: 3px solid red;
 }
 
 #main {
